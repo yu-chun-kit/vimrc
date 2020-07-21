@@ -11,7 +11,7 @@ au FileType python map <buffer> F :set foldmethod=indent<cr>
 
 au FileType python inoremap <buffer> $r return 
 au FileType python inoremap <buffer> $i import 
-au FileType python inoremap <buffer> $p print 
+au FileType python inoremap <buffer> $p print()<esc>i
 au FileType python inoremap <buffer> $f # --- <esc>a
 au FileType python map <buffer> <leader>1 /class 
 au FileType python map <buffer> <leader>2 /def 
