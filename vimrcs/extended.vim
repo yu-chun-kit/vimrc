@@ -28,8 +28,10 @@ set guioptions-=l
 set guioptions-=L
 
 " Colorscheme
-"set background=dark
-"colorscheme peaksea
+if has('macunix') || has('unix')
+    set background=dark
+    colorscheme peaksea
+endif
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
