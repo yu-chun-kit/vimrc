@@ -302,7 +302,7 @@ snippet input "Input with Label" w
 endsnippet
 
 snippet input "HTML <input>" w
-<input type="${1:text/submit/hidden/button}" name="${2:some_name}" value="$3"${4: id="${5:$2}"}`!p x(snip)`>
+<input type="${1:t}${1/(t)|(s)|(h)|(b)|(c)|.*/(?1:ext)(?2:ubmit)(?3:idden)(?4:utton)(?5:heckbox)/}" name="${2:some_name}" value="$3"${4: id="${5:$2}"}`!p x(snip)`>
 endsnippet
 
 snippet ins "<ins>" w
