@@ -82,5 +82,7 @@ let vim_markdown_folding_disabled = 1
 
 """"""""""""""""""""""""""""""
 
+" set tabstop of javascript and html {
 autocmd FileType html set tabstop=2|set shiftwidth=2|set expandtab
 autocmd FileType javascript set tabstop=2|set shiftwidth=2|set expandtab
+" }
