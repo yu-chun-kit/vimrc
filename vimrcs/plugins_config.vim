@@ -96,17 +96,28 @@ map <leader>nf :NERDTreeFind<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-multiple-cursors
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:multi_cursor_use_default_mapping=0
+"let g:multi_cursor_use_default_mapping=0
 
 " Default mapping
-let g:multi_cursor_start_word_key      = '<C-s>'
-let g:multi_cursor_select_all_word_key = '<A-s>'
-let g:multi_cursor_start_key           = 'g<C-s>'
-let g:multi_cursor_select_all_key      = 'g<A-s>'
-let g:multi_cursor_next_key            = '<C-s>'
-let g:multi_cursor_prev_key            = '<C-p>'
-let g:multi_cursor_skip_key            = '<C-x>'
-let g:multi_cursor_quit_key            = '<Esc>'
+let g:VM_maps = {}
+let g:VM_mouse_mappings = 1
+let g:VM_maps['Find Under']         = '<C-s>'           " replace C-n
+let g:VM_maps['Find Subword Under'] = '<C-s>'           " replace visual C-n
+let g:VM_maps["Select Cursor Down"] = '<M-C-Down>'
+let g:VM_maps["Select Cursor Up"]   = '<M-C-Up>'
+let g:VM_maps['Select All']  = '<M-s>'
+let g:VM_maps['Visual All']  = '<M-s>'
+let g:VM_maps['Skip Region'] = '<C-x>'
+let g:VM_maps['Increase']    = '+'
+let g:VM_maps['Decrease']    = '-'
+"let g:multi_cursor_start_word_key      = '<C-s>'
+"let g:multi_cursor_select_all_word_key = '<A-s>'
+"let g:multi_cursor_start_key           = 'g<C-s>'
+"let g:multi_cursor_select_all_key      = 'g<A-s>'
+"let g:multi_cursor_next_key            = '<C-s>'
+"let g:multi_cursor_prev_key            = '<C-p>'
+"let g:multi_cursor_skip_key            = '<C-x>'
+"let g:multi_cursor_quit_key            = '<Esc>'
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
