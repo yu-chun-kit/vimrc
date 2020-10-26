@@ -99,5 +99,8 @@ Plug 'posva/vim-vue'
 " vim drawit
 Plug 'vim-scripts/DrawIt'
 
+" vim repeat
+Plug 'tpope/vim-repeat'
+
 call plug#end()
 
