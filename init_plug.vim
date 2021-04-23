@@ -102,5 +102,8 @@ Plug 'vim-scripts/DrawIt'
 " vim repeat
 Plug 'tpope/vim-repeat'
 
+"easy motion
+Plug 'easymotion/vim-easymotion'
+
 call plug#end()
 
