@@ -105,5 +105,8 @@ Plug 'tpope/vim-repeat'
 "easy motion
 Plug 'easymotion/vim-easymotion'
 
+" javacomplete2
+Plug 'artur-shaik/vim-javacomplete2'
+
 call plug#end()
 
