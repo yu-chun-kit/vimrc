@@ -67,7 +67,7 @@ endif
 
 
 " ale
-Plug 'dense-analysis/ale'
+"Plug 'dense-analysis/ale'
 
 " typescript
 Plug 'leafgarland/typescript-vim'

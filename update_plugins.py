@@ -14,9 +14,9 @@ import requests
 from os import path
 
 # --- Globals ----------------------------------------------
+# ale https://github.com/w0rp/ale
 PLUGINS = """
 auto-pairs https://github.com/jiangmiao/auto-pairs
-ale https://github.com/w0rp/ale
 vim-yankstack https://github.com/maxbrunsfeld/vim-yankstack
 ack.vim https://github.com/mileszs/ack.vim
 bufexplorer https://github.com/jlanzarotta/bufexplorer
