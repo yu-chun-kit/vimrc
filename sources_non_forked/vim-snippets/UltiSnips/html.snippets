@@ -276,7 +276,7 @@ snippet htmll "HTML basic structure with the lang attribute" b
 <html lang="${1:es}">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>${2:`!p snip.rv = snip.basename.replace('-', ' ').capitalize()`}</title>
 	</head>
 	<body>
@@ -302,7 +302,7 @@ snippet input "Input with Label" w
 endsnippet
 
 snippet input "HTML <input>" w
-<input type="${1:t}${1/(t)|(s)|(h)|(b)|(c)|.*/(?1:ext)(?2:ubmit)(?3:idden)(?4:utton)(?5:heckbox)/}" name="${2:some_name}" value="$3"${4: id="${5:$2}"}`!p x(snip)`>
+<input type="${1:text/submit/hidden/button}" name="${2:some_name}" value="$3"${4: id="${5:$2}"}`!p x(snip)`>
 endsnippet
 
 snippet ins "<ins>" w
